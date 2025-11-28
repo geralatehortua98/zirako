@@ -239,7 +239,7 @@ const categoryData: Record<
         location: "Yumbo",
         price: 180000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/mechanical-keyboard-rgb.jpg",
       },
       {
         id: 25,
@@ -248,7 +248,7 @@ const categoryData: Record<
         location: "Tuluá",
         price: 120000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Mouse-Logitech-G502.jpg",
       },
       {
         id: 26,
@@ -257,7 +257,7 @@ const categoryData: Record<
         location: "Buga",
         price: 0,
         type: "donacion",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/webcam-full-hd.jpg",
       },
     ],
   },
@@ -272,7 +272,7 @@ const categoryData: Record<
         location: "Jamundí",
         price: 420000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/dewalt-cordless-drill-yellow.jpg",
       },
       {
         id: 27,
@@ -281,7 +281,7 @@ const categoryData: Record<
         location: "Cali",
         price: 350000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/bosch-circular-saw.jpg",
       },
       {
         id: 28,
@@ -290,7 +290,7 @@ const categoryData: Record<
         location: "Palmira",
         price: 85000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/stanley-screwdriver-set.jpg",
       },
       {
         id: 29,
@@ -299,7 +299,7 @@ const categoryData: Record<
         location: "Cartago",
         price: 580000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/air-compressor.jpg",
       },
       {
         id: 30,
@@ -308,7 +308,7 @@ const categoryData: Record<
         location: "Tuluá",
         price: 0,
         type: "intercambio",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Escalera-Aluminio-6-Pasos.jpg",
       },
       {
         id: 31,
@@ -317,7 +317,7 @@ const categoryData: Record<
         location: "Buga",
         price: 150000,
         type: "donacion",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Caja-de-Herramientas-Completa.webp",
       },
     ],
   },
@@ -332,7 +332,7 @@ const categoryData: Record<
         location: "Buenaventura",
         price: 350000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/l-shaped-office-desk-white-modern.jpg",
       },
       {
         id: 32,
@@ -341,7 +341,7 @@ const categoryData: Record<
         location: "Cali",
         price: 220000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Archivador-Metálico-4-Gavetas.webp",
       },
       {
         id: 33,
@@ -350,7 +350,7 @@ const categoryData: Record<
         location: "Palmira",
         price: 450000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Impresora-HP-LaserJet.png",
       },
       {
         id: 34,
@@ -359,7 +359,7 @@ const categoryData: Record<
         location: "Yumbo",
         price: 380000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/silla-oficina-ergonomica-negra-con-ruedas.jpg",
       },
       {
         id: 35,
@@ -368,7 +368,7 @@ const categoryData: Record<
         location: "Tuluá",
         price: 0,
         type: "donacion",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Tablero-Acrílico-120x80cm.jpg",
       },
       {
         id: 36,
@@ -377,7 +377,7 @@ const categoryData: Record<
         location: "Jamundí",
         price: 45000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Organizador-de-Escritorio.jpg",
       },
     ],
   },
@@ -392,7 +392,7 @@ const categoryData: Record<
         location: "Cali",
         price: 180000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Chaqueta-de-Cuero-Negra.jpg",
       },
       {
         id: 38,
@@ -401,7 +401,7 @@ const categoryData: Record<
         location: "Palmira",
         price: 0,
         type: "donacion",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Vestido-de-Fiesta-Azul.jpg",
       },
       {
         id: 39,
@@ -410,7 +410,7 @@ const categoryData: Record<
         location: "Tuluá",
         price: 220000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Zapatillas-Nike-Air-Max.webp",
       },
       {
         id: 40,
@@ -419,7 +419,7 @@ const categoryData: Record<
         location: "Buga",
         price: 350000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Bolso-de-Mano-Coach.webp",
       },
       {
         id: 41,
@@ -428,7 +428,7 @@ const categoryData: Record<
         location: "Yumbo",
         price: 0,
         type: "intercambio",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Jeans-Levis-501.webp",
       },
       {
         id: 42,
@@ -437,7 +437,7 @@ const categoryData: Record<
         location: "Jamundí",
         price: 85000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Reloj-Casio-Vintage.webp",
       },
     ],
   },
@@ -452,7 +452,7 @@ const categoryData: Record<
         location: "Cali",
         price: 1200000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Nevera-Samsung-No-Frost.webp",
       },
       {
         id: 44,
@@ -461,7 +461,7 @@ const categoryData: Record<
         location: "Palmira",
         price: 950000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Lavadora-LG-12kg.webp",
       },
       {
         id: 45,
@@ -470,7 +470,7 @@ const categoryData: Record<
         location: "Tuluá",
         price: 0,
         type: "donacion",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Microondas-Panasonic.webp",
       },
       {
         id: 46,
@@ -479,7 +479,7 @@ const categoryData: Record<
         location: "Buga",
         price: 180000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Licuadora-Oster.webp",
       },
       {
         id: 47,
@@ -488,7 +488,7 @@ const categoryData: Record<
         location: "Cartago",
         price: 850000,
         type: "venta",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Aire-Acondicionado-12000-BTU.webp",
       },
       {
         id: 48,
@@ -497,7 +497,7 @@ const categoryData: Record<
         location: "Buenaventura",
         price: 0,
         type: "intercambio",
-        image: "/placeholder.svg?height=300&width=300",
+        image: "/Ventilador-de-Pie-Samurai.webp",
       },
     ],
   },
