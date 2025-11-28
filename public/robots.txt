@@ -1,0 +1,9 @@
+# Robots.txt para ZIRAKO
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /auth/verify
+Disallow: /auth/reset-password
+
+# Sitemap
+Sitemap: https://zirako.co/sitemap.xml
