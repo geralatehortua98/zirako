@@ -55,10 +55,15 @@ export async function sendEmail(options: EmailOptions) {
   }
 }
 
-const ZIRAKO_LOGO = "https://zirako.vercel.app/favicon.jpg"
+const ZIRAKO_LOGO_SVG = `
+  <svg width="80" height="80" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block; margin: 0 auto; border-radius: 50%; border: 3px solid white;">
+    </svg>
+`;
 const EMAIL_HEADER = `
   <div style="background: linear-gradient(135deg, #1a5f3a 0%, #2d8659 100%); color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
-    <img src="${ZIRAKO_LOGO}" alt="ZIRAKO" style="width: 80px; height: 80px; border-radius: 50%; margin-bottom: 15px; border: 3px solid white;" />
+    
+    ${ZIRAKO_LOGO_SVG} 
+    
     <h1 style="margin: 0; font-size: 28px;">ZIRAKO</h1>
     <p style="margin: 5px 0 0 0; opacity: 0.9;">Reutiliza con propósito</p>
   </div>
@@ -69,7 +74,7 @@ const EMAIL_FOOTER = `
     <p style="margin: 0;">© 2025 ZIRAKO - Todos los derechos reservados</p>
     <p style="margin: 5px 0 0 0;">Cali, Valle del Cauca, Colombia</p>
     <p style="margin: 10px 0 0 0;">
-      <a href="https://zirako.vercel.app" style="color: #1a5f3a; text-decoration: none;">zirako.vercel.app</a>
+      <a href="https://zirako-delta.vercel.app/" style="color: #1a5f3a; text-decoration: none;">zirako.co</a>
     </p>
   </div>
 `
@@ -130,7 +135,7 @@ export async function sendWelcomeEmail(email: string, name: string) {
             </div>
 
             <center>
-              <a href="https://zirako.vercel.app/dashboard" class="button">Explorar ZIRAKO</a>
+              <a href="https://zirako-delta.vercel.app/auth/login" class="button">Explorar ZIRAKO</a>
             </center>
 
             <p style="color: #666; font-size: 14px;">Si tienes alguna pregunta, no dudes en contactarnos. ¡Juntos construimos un futuro más sostenible!</p>
@@ -190,7 +195,7 @@ export async function sendTemporaryPasswordEmail(email: string, name: string, te
             </div>
 
             <center>
-              <a href="https://zirako.vercel.app/auth/login" class="button">Iniciar Sesión</a>
+              <a href="https://zirako-delta.vercel.app/auth/login" class="button">Iniciar Sesión</a>
             </center>
             
             <p style="color: #666; font-size: 14px; text-align: center;">Si no solicitaste este cambio, puedes ignorar este correo de forma segura.</p>
@@ -205,7 +210,7 @@ export async function sendTemporaryPasswordEmail(email: string, name: string, te
     to: email,
     subject: "🔐 Tu nueva contraseña temporal - ZIRAKO",
     html,
-    text: `Hola ${name}, tu contraseña temporal para ZIRAKO es: ${temporaryPassword}. Inicia sesión en https://zirako.vercel.app/auth/login`,
+    text: `Hola ${name}, tu contraseña temporal para ZIRAKO es: ${temporaryPassword}. Inicia sesión en https://zirako-delta.vercel.app/auth/login`,
   })
 }
 
@@ -569,7 +574,7 @@ export async function sendExchangeRequestEmail(
             </div>
 
             <center>
-              <a href="https://zirako.vercel.app/intercambio" class="button">Ver Solicitud</a>
+              <a href="https://zirako-delta.vercel.app/intercambio" class="button">Ver Solicitud</a>
             </center>
           </div>
           ${EMAIL_FOOTER}
